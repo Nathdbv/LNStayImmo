@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand Colors - also defined in tailwind.config.js but kept here for reference or non-tailwind usage */
+  --color-primary: #0a192f;
+  --color-secondary: #d4af37;
+  --font-main: 'Outfit', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Utilities can go here */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-heading);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-light);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-light);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.text-gold {
+  color: var(--color-secondary);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1-fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
