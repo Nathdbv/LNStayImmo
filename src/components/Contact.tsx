@@ -33,8 +33,8 @@ export default function Contact() {
                                 </div>
                                 <h3 className="text-xl font-bold mb-2">Email</h3>
                                 <p className="text-slate-400 mb-4">Réponse sous 24h</p>
-                                <a href="mailto:contact@locaprestige.fr" className="text-lg font-semibold hover:text-amber-500 transition-colors">
-                                    contact@locaprestige.fr
+                                <a href="mailto:contact@lnstay.fr" className="text-lg font-semibold hover:text-amber-500 transition-colors">
+                                    contact@lnstay.fr
                                 </a>
                             </div>
 
@@ -52,9 +52,9 @@ export default function Contact() {
 
                         <div className="mt-16 pt-10 border-t border-slate-800">
                             <div className="w-20 h-20 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="font-bold text-3xl text-white">LP</span>
+                                <span className="font-bold text-3xl text-white">LS</span>
                             </div>
-                            <p className="text-slate-400 text-sm">© 2024 LocaPrestige.</p>
+                            <p className="text-slate-400 text-sm">© 2024 LNStay.</p>
                         </div>
 
                     </div>

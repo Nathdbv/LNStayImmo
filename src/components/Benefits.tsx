@@ -5,7 +5,7 @@ const benefits = [
     "Loyer garanti et versé le 1er de chaque mois (Sans retard)",
     "Aucun frais d'agence ni de gestion - Tout compris",
     "Entretien hôtelier professionnel après chaque séjour",
-    "Bien assuré jusqu'à 100k€ par notre assurance multirisque pro",
+    "Bien assuré jusqu'à 1M€ par notre assurance multirisque pro",
     "Sélection rigoureuse des locataires (entreprises et pros)",
     "Possibilité de récupérer votre bien avec préavis de 3 mois",
     "Support dédié disponible 7j/7 pour toute urgence",
@@ -23,7 +23,7 @@ export default function Benefits() {
                             <div className="absolute -top-4 -left-4 w-24 h-24 bg-amber-500 rounded-tl-3xl z-0"></div>
                             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-slate-900 rounded-br-3xl z-0"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
+                                src="/0e6a64-b732-f51-c866-32d17c43b_5_Short_Term_Rental_Design_Tips_from_Top-Rated_Airbnb_Hosts.jpg"
                                 alt="Living room interior"
                                 className="relative z-10 w-full h-[500px] object-cover rounded-lg shadow-2xl grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                             />

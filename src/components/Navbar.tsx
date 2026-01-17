@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Building2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -19,13 +19,8 @@ export default function Navbar() {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <a href="#" className="flex items-center gap-2 group">
-                    <div className="bg-amber-500 rounded-lg p-1.5 group-hover:bg-amber-400 transition-colors">
-                        <Building2 className="w-6 h-6 text-white" />
-                    </div>
-                    <span className="text-2xl font-bold tracking-tight">
-                        Loca<span className="text-amber-500">Prestige</span>
-                    </span>
+                <a href="#" className="flex items-center gap-2 transition-opacity hover:opacity-80">
+                    <img src="/logo.png" className="h-12 md:h-24 w-auto object-contain" alt="LNStay Logo" />
                 </a>
 
                 {/* Desktop Menu */}

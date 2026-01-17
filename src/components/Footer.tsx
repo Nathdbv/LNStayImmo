@@ -1,5 +1,5 @@
 
-import { Instagram, Linkedin, Facebook, Building2 } from 'lucide-react';
+import { Instagram, Linkedin, Facebook } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -7,13 +7,8 @@ export default function Footer() {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
-                        <a href="#" className="flex items-center gap-2 mb-4 group">
-                            <div className="bg-amber-500 rounded-lg p-1.5 group-hover:bg-amber-400 transition-colors">
-                                <Building2 className="w-6 h-6 text-white" />
-                            </div>
-                            <span className="text-2xl font-bold tracking-tight text-white">
-                                Loca<span className="text-amber-500">Prestige</span>
-                            </span>
+                        <a href="#" className="flex items-center gap-2 mb-4 transition-opacity hover:opacity-80">
+                            <img src="/logo.png" className="h-16 md:h-28 w-auto object-contain bg-white/5 rounded-lg p-1" alt="LNStay Logo" />
                         </a>
                         <p className="max-w-sm text-slate-400">
                             Spécialiste de la sous-location professionnelle. Nous valorisons votre patrimoine immobilier en toute sérénité.
@@ -40,7 +35,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-sm">© 2024 LocaPrestige. Tous droits réservés.</p>
+                    <p className="text-sm">© 2024 LNStay. Tous droits réservés.</p>
                     <div className="flex gap-4">
                         <a href="#" className="hover:text-amber-500 transition-colors"><Instagram className="w-5 h-5" /></a>
                         <a href="#" className="hover:text-amber-500 transition-colors"><Linkedin className="w-5 h-5" /></a>
