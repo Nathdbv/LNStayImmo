@@ -1,5 +1,6 @@
 
 import { Check } from 'lucide-react';
+import interiorImg from '../assets/interior.jpg';
 
 const benefits = [
     "Loyer garanti et versé le 1er de chaque mois (Sans retard)",
@@ -23,7 +24,7 @@ export default function Benefits() {
                             <div className="absolute -top-4 -left-4 w-24 h-24 bg-amber-500 rounded-tl-3xl z-0"></div>
                             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-slate-900 rounded-br-3xl z-0"></div>
                             <img
-                                src="/0e6a64-b732-f51-c866-32d17c43b_5_Short_Term_Rental_Design_Tips_from_Top-Rated_Airbnb_Hosts.jpg"
+                                src={interiorImg}
                                 alt="Living room interior"
                                 className="relative z-10 w-full h-[500px] object-cover rounded-lg shadow-2xl grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                             />

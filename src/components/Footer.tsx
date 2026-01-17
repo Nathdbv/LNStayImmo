@@ -1,5 +1,6 @@
 
 import { Instagram, Linkedin, Facebook } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Footer() {
     return (
@@ -8,7 +9,7 @@ export default function Footer() {
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
                         <a href="#" className="flex items-center gap-2 mb-4 transition-opacity hover:opacity-80">
-                            <img src="/logo.png" className="h-16 md:h-28 w-auto object-contain bg-white/5 rounded-lg p-1" alt="LNStay Logo" />
+                            <img src={logoImg} className="h-16 md:h-28 w-auto object-contain bg-white/5 rounded-lg p-1" alt="LNStay Logo" />
                         </a>
                         <p className="max-w-sm text-slate-400">
                             Spécialiste de la sous-location professionnelle. Nous valorisons votre patrimoine immobilier en toute sérénité.

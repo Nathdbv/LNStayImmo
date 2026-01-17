@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -20,7 +21,7 @@ export default function Navbar() {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="flex items-center gap-2 transition-opacity hover:opacity-80">
-                    <img src="/logo.png" className="h-12 md:h-24 w-auto object-contain" alt="LNStay Logo" />
+                    <img src={logoImg} className="h-12 md:h-24 w-auto object-contain" alt="LNStay Logo" />
                 </a>
 
                 {/* Desktop Menu */}
