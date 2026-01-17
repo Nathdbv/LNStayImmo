@@ -64,9 +64,9 @@ export default function Hero() {
                             Estimer mes revenus
                             <ArrowRight className="w-5 h-5" />
                         </button> */}
-                        <button className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all hover:border-white/40 flex items-center justify-center">
+                        <a href="#services" className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all hover:border-white/40 flex items-center justify-center">
                             Découvrir le concept
-                        </button>
+                        </a>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm font-medium text-slate-300 border-t border-white/10 pt-8">

@@ -53,14 +53,7 @@ export default function Benefits() {
                             ))}
                         </div>
 
-                        <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                            <button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-                                Obtenir mon estimation gratuite
-                            </button>
-                            <button className="text-slate-900 font-bold border-2 border-slate-300 hover:border-amber-500 px-8 py-4 rounded-lg transition-all hover:shadow-lg">
-                                Voir l'assurance en détail →
-                            </button>
-                        </div>
+                        {/* Buttons removed - no functional destinations */}
                     </div>
                 </div>
             </div>
