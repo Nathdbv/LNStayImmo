@@ -1,5 +1,5 @@
 
-import { ArrowRight, CheckCircle, Star } from 'lucide-react';
+import { CheckCircle, Star } from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -60,10 +60,10 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 mb-16">
-                        <button className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-lg px-8 py-4 rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] hover:-translate-y-1 flex items-center justify-center gap-3">
+                        {/* <button className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-lg px-8 py-4 rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] hover:-translate-y-1 flex items-center justify-center gap-3">
                             Estimer mes revenus
                             <ArrowRight className="w-5 h-5" />
-                        </button>
+                        </button> */}
                         <button className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all hover:border-white/40 flex items-center justify-center">
                             Découvrir le concept
                         </button>

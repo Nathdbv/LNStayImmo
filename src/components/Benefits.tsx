@@ -3,7 +3,8 @@ import { Check } from 'lucide-react';
 import interiorImg from '../assets/interior.jpg';
 
 const benefits = [
-    "Loyer garanti et versé le 1er de chaque mois (Sans retard)",
+    "Loyer garanti et versé en temps et en heure (Sans retard)",
+    "Expulsion possible en cas de non-respect des conditions",
     "Aucun frais d'agence ni de gestion - Tout compris",
     "Entretien hôtelier professionnel après chaque séjour",
     "Bien assuré jusqu'à 1M€ par notre assurance multirisque pro",
