@@ -58,26 +58,7 @@ export default function Hero() {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm font-medium text-slate-300 border-t border-white/10 pt-8">
-                        <div className="flex items-center gap-3">
-                            <div className="p-2 bg-amber-500/10 rounded-lg">
-                                <CheckCircle className="w-5 h-5 text-amber-500" />
-                            </div>
-                            <span>Versement mensuel à date fixe</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="p-2 bg-amber-500/10 rounded-lg">
-                                <CheckCircle className="w-5 h-5 text-amber-500" />
-                            </div>
-                            <span>Assurance IARD incluse</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="p-2 bg-amber-500/10 rounded-lg">
-                                <CheckCircle className="w-5 h-5 text-amber-500" />
-                            </div>
-                            <span>État des lieux par huissier</span>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
