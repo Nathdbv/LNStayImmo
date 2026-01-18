@@ -13,13 +13,13 @@ const steps = [
     },
     {
         number: "03",
-        title: "Signature du bail",
-        desc: "Nous signons un bail professionnel dérogatoire. Tout est clair et transparent."
+        title: "Signature du contrat",
+        desc: "Nous signons un contrat de location avec clause de sous-location autorisée. Tout est clair et transparent."
     },
     {
         number: "04",
         title: "Versement des loyers",
-        desc: "Vous percevez votre premier loyer immédiatement. Nous nous occupons du reste."
+        desc: "Premier versement au prorata à la signature, puis loyers versés chaque 1er du mois."
     }
 ];
 

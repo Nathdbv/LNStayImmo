@@ -6,9 +6,9 @@ export default function Hero() {
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-900">
             {/* Background with overlay */}
             <div className="absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900/60 z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/50 to-slate-900/20 z-10"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                    src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
                     alt="Luxury Apartment"
                     className="w-full h-full object-cover animate-slow-zoom"
                 />
@@ -63,7 +63,7 @@ export default function Hero() {
                             <div className="p-2 bg-amber-500/10 rounded-lg">
                                 <CheckCircle className="w-5 h-5 text-amber-500" />
                             </div>
-                            <span>Loyers versés le 1er du mois</span>
+                            <span>Versement mensuel à date fixe</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="p-2 bg-amber-500/10 rounded-lg">

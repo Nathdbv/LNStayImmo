@@ -36,7 +36,7 @@ const commitments = [
 
 export default function Commitments() {
     return (
-        <section className="py-24 bg-gradient-to-br from-slate-50 to-white relative overflow-hidden">
+        <section className="py-24 bg-gradient-to-br from-creme to-white relative overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>

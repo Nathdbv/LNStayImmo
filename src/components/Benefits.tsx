@@ -1,12 +1,12 @@
 
 import { Check } from 'lucide-react';
-import interiorImg from '../assets/interior.jpg';
+// import interiorImg from '../assets/interior.jpg';
 
 const benefits = [
     "Loyer garanti et versé le 1er du mois - Sans retard, sans exception",
     "Assurance multirisque incluse jusqu'à 1M€ - Protection totale de votre patrimoine",
-    "Protection anti-squat & Expulsion express en cas de besoin",
-    "Aucun frais d'agence ni de gestion - Tout compris dans le service",
+    "Accompagnement juridique et procédures adaptées en cas d'occupation illicite",
+    "Aucun frais de gestion : notre rémunération provient de l'exploitation",
     "Entretien hôtelier professionnel - Votre bien toujours impeccable",
     "Zéro vacance locative - Revenus continus garantis",
     "Flexibilité totale - Récupération possible avec préavis de 3 mois",
@@ -16,7 +16,7 @@ const benefits = [
 
 export default function Benefits() {
     return (
-        <section id="benefits" className="py-20 bg-slate-50">
+        <section id="benefits" className="py-20 bg-creme">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     {/* Image */}
@@ -25,7 +25,7 @@ export default function Benefits() {
                             <div className="absolute -top-4 -left-4 w-24 h-24 bg-amber-500 rounded-tl-3xl z-0"></div>
                             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-slate-900 rounded-br-3xl z-0"></div>
                             <img
-                                src={interiorImg}
+                                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&q=80"
                                 alt="Living room interior"
                                 className="relative z-10 w-full h-[500px] object-cover rounded-lg shadow-2xl grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                             />

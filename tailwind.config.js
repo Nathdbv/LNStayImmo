@@ -9,6 +9,7 @@ export default {
             colors: {
                 'primary': '#0a192f',
                 'secondary': '#d4af37',
+                'creme': '#FDFBF7',
             },
             fontFamily: {
                 'main': ['Outfit', 'sans-serif'],

@@ -3,7 +3,7 @@ import { Shield, Users, Sparkles, CheckCircle, ShieldCheck, HeartHandshake } fro
 
 export default function AirCoverSection() {
     return (
-        <section id="insurance" className="py-24 bg-white relative overflow-hidden">
+        <section id="insurance" className="py-24 bg-creme relative overflow-hidden">
             {/* Background elements */}
             <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 skew-x-12 translate-x-32 z-0"></div>
 
@@ -32,8 +32,8 @@ export default function AirCoverSection() {
                                     <Shield className="w-6 h-6 text-rose-600" />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Garantie dommages jusqu'à 3 M$</h3>
-                                    <p className="text-slate-600">Couverture complète pour votre logement et vos biens, incluant le mobilier, les objets de valeur et même les œuvres d'art.</p>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Garantie dommages (jusqu'à 3 M$)</h3>
+                                    <p className="text-slate-600">Couverture pour votre logement et vos biens via le programme AirCover (selon éligibilité et plafonds en USD).</p>
                                 </div>
                             </div>
 
@@ -42,8 +42,8 @@ export default function AirCoverSection() {
                                     <HeartHandshake className="w-6 h-6 text-rose-600" />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Responsabilité civile 1 M$</h3>
-                                    <p className="text-slate-600">Protection contre les recours de tiers pour dommages corporels ou matériels. Vous êtes couvert quoi qu'il arrive.</p>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Responsabilité civile (1 M$)</h3>
+                                    <p className="text-slate-600">Protection contre les recours de tiers pour dommages corporels ou matériels (selon conditions du programme).</p>
                                 </div>
                             </div>
 
@@ -98,8 +98,8 @@ export default function AirCoverSection() {
 
                                 <div className="mt-10 pt-6 border-t border-slate-700">
                                     <p className="text-sm text-slate-400 text-center">
-                                        En partenariat avec la protection AirCover d'Airbnb. <br />
-                                        La référence mondiale de l'assurance locative.
+                                        Grâce au programme AirCover d'Airbnb (applicable aux réservations sur la plateforme). <br />
+                                        En complément de notre assurance professionnelle dédiée.
                                     </p>
                                 </div>
                             </div>

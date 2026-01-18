@@ -3,7 +3,7 @@ import logoImg from '../assets/logo.png';
 
 export default function Contact() {
     return (
-        <section id="contact" className="py-20 bg-white">
+        <section id="contact" className="py-20 bg-creme">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Discutons de votre <span className="text-amber-500">projet</span></h2>

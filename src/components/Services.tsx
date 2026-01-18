@@ -24,7 +24,7 @@ const services = [
 
 export default function Services() {
     return (
-        <section id="services" className="py-20 bg-white">
+        <section id="services" className="py-20 bg-creme">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Une gestion locative <span className="text-amber-500">sans compromis</span></h2>
@@ -33,7 +33,7 @@ export default function Services() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {services.map((service, index) => (
-                        <div key={index} className="bg-slate-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 border-2 border-slate-100 hover:border-amber-500/30 group relative overflow-hidden">
+                        <div key={index} className="bg-white p-8 rounded-2xl hover:shadow-xl transition-all duration-300 border-2 border-slate-100 hover:border-amber-500/30 group relative overflow-hidden">
                             {/* Guaranteed badge */}
                             <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                                 ✓ GARANTI
