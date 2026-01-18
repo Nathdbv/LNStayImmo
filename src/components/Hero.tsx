@@ -19,7 +19,7 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4 mb-8">
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 backdrop-blur-md border border-amber-500/20 px-4 py-2 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.2)]">
                             <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-                            <span className="text-sm font-bold tracking-wide uppercase text-amber-500">Service Premium de Sous-Location</span>
+                            <span className="text-sm font-bold tracking-wide uppercase text-amber-500">Gestion Locative Premium</span>
                         </div>
                         <div className="inline-flex items-center gap-2 bg-green-500/10 backdrop-blur-md border border-green-500/20 px-4 py-2 rounded-full">
                             <CheckCircle className="w-4 h-4 text-green-400" />
@@ -34,23 +34,12 @@ export default function Hero() {
                         </span>
                     </h1>
 
-                    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 mb-10 inline-flex flex-col sm:flex-row gap-8 shadow-2xl">
-                        <div>
-                            <p className="text-sm text-slate-400 mb-1 font-medium uppercase tracking-wider">Biens sous gestion</p>
-                            <p className="text-3xl font-bold text-white flex items-baseline gap-1">
-                                <span className="text-amber-400">XX+</span>
-                                <span className="text-lg text-slate-500 font-normal">propriétés</span>
-                            </p>
-                        </div>
-                        <div className="w-px bg-white/10 hidden sm:block"></div>
-                        <div className="h-px bg-white/10 sm:hidden"></div>
-                        <div>
-                            <p className="text-sm text-slate-400 mb-1 font-medium uppercase tracking-wider">Versement des loyers</p>
-                            <p className="text-3xl font-bold text-white flex items-baseline gap-1">
-                                <span className="text-green-400">100%</span>
-                                <span className="text-lg text-slate-500 font-normal">garanti</span>
-                            </p>
-                        </div>
+                    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 mb-10 inline-block shadow-2xl">
+                        <p className="text-sm text-slate-400 mb-1 font-medium uppercase tracking-wider">Versement des loyers</p>
+                        <p className="text-3xl font-bold text-white flex items-baseline gap-1">
+                            <span className="text-green-400">100%</span>
+                            <span className="text-lg text-slate-500 font-normal">garanti</span>
+                        </p>
                     </div>
 
                     <p className="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl font-light">

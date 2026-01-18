@@ -1,4 +1,5 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Contact() {
     return (
@@ -15,15 +16,15 @@ export default function Contact() {
                 <div className="max-w-4xl mx-auto bg-slate-900 text-white rounded-2xl shadow-xl overflow-hidden">
                     <div className="p-10 md:p-16 text-center">
 
-                        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-2xl mx-auto">
                             <div className="flex flex-col items-center group">
                                 <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
                                     <Phone className="w-8 h-8 text-amber-500 group-hover:text-white transition-colors" />
                                 </div>
                                 <h3 className="text-xl font-bold mb-2">Téléphone</h3>
                                 <p className="text-slate-400 mb-4">Du lundi au samedi</p>
-                                <a href="tel:+33612345678" className="text-lg font-semibold hover:text-amber-500 transition-colors">
-                                    +33 6 12 34 56 78
+                                <a href="tel:0667020321" className="text-lg font-semibold hover:text-amber-500 transition-colors">
+                                    06 67 02 03 21
                                 </a>
                             </div>
 
@@ -33,28 +34,19 @@ export default function Contact() {
                                 </div>
                                 <h3 className="text-xl font-bold mb-2">Email</h3>
                                 <p className="text-slate-400 mb-4">Réponse sous 24h</p>
-                                <a href="mailto:contact@lnstay.fr" className="text-lg font-semibold hover:text-amber-500 transition-colors">
-                                    contact@lnstay.fr
+                                <a href="mailto:loan.nollet.pro@gmail.com" className="text-lg font-semibold hover:text-amber-500 transition-colors">
+                                    loan.nollet.pro@gmail.com
                                 </a>
                             </div>
 
-                            <div className="flex flex-col items-center group">
-                                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
-                                    <MapPin className="w-8 h-8 text-amber-500 group-hover:text-white transition-colors" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-2">Bureau</h3>
-                                <p className="text-slate-400 mb-4">Sur rendez-vous</p>
-                                <address className="text-lg font-semibold not-italic">
-                                    10 Rue de la République<br />75001 Paris
-                                </address>
-                            </div>
+
                         </div>
 
                         <div className="mt-16 pt-10 border-t border-slate-800">
-                            <div className="w-20 h-20 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="font-bold text-3xl text-white">LS</span>
+                            <div className="mx-auto mb-6 flex justify-center">
+                                <img src={logoImg} className="h-20 w-auto object-contain bg-white/5 rounded-lg p-2" alt="LNStay Logo" />
                             </div>
-                            <p className="text-slate-400 text-sm">© 2024 LNStay.</p>
+                            <p className="text-slate-400 text-sm">© 2026 LNStay.</p>
                         </div>
 
                     </div>

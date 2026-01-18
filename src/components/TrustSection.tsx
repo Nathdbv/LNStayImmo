@@ -1,13 +1,13 @@
 
-import { TrendingUp, Users, Award, Building2 } from 'lucide-react';
+import { TrendingUp, Users, Award } from 'lucide-react';
 
 const stats = [
-    {
-        icon: <Building2 className="w-8 h-8" />,
-        number: "XX+",
-        label: "Biens Gérés",
-        description: "Appartements et maisons en gestion confidentielle"
-    },
+    // {
+    //     icon: <Building2 className="w-8 h-8" />,
+    //     number: "XX+",
+    //     label: "Biens Gérés",
+    //     description: "Appartements et maisons en gestion confidentielle"
+    // },
     {
         icon: <Users className="w-8 h-8" />,
         number: "100%",
@@ -47,7 +47,7 @@ export default function TrustSection() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {stats.map((stat, index) => (
                         <div
                             key={index}

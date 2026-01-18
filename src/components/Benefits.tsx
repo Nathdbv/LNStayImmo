@@ -3,15 +3,15 @@ import { Check } from 'lucide-react';
 import interiorImg from '../assets/interior.jpg';
 
 const benefits = [
-    "Loyer garanti et versé en temps et en heure (Sans retard)",
-    "Expulsion possible en cas de non-respect des conditions",
-    "Aucun frais d'agence ni de gestion - Tout compris",
-    "Entretien hôtelier professionnel après chaque séjour",
-    "Bien assuré jusqu'à 1M€ par notre assurance multirisque pro",
-    "Sélection rigoureuse des locataires (entreprises et pros)",
-    "Possibilité de récupérer votre bien avec préavis de 3 mois",
-    "Support dédié disponible 7j/7 pour toute urgence",
-    "Rapport mensuel détaillé sur l'état de votre bien"
+    "Loyer garanti et versé le 1er du mois - Sans retard, sans exception",
+    "Assurance multirisque incluse jusqu'à 1M€ - Protection totale de votre patrimoine",
+    "Protection anti-squat & Expulsion express en cas de besoin",
+    "Aucun frais d'agence ni de gestion - Tout compris dans le service",
+    "Entretien hôtelier professionnel - Votre bien toujours impeccable",
+    "Zéro vacance locative - Revenus continus garantis",
+    "Flexibilité totale - Récupération possible avec préavis de 3 mois",
+    "Support dédié 7j/7 pour toute urgence ou question",
+    "Rapport mensuel détaillé sur l'état et l'occupation de votre bien"
 ];
 
 export default function Benefits() {
@@ -35,11 +35,11 @@ export default function Benefits() {
                     {/* Content */}
                     <div className="w-full md:w-1/2">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900">
-                            Pourquoi nous confier <br />
-                            <span className="text-amber-500">vos clés ?</span>
+                            Ce que vous gagnez en nous confiant <br />
+                            <span className="text-amber-500">votre bien</span>
                         </h2>
                         <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                            La sous-location professionnelle est le moyen le plus sûr de rentabiliser votre bien sans les contraintes de la location classique. Nous prenons tout en charge.
+                            Devenez propriétaire passif : nous gérons tout de A à Z pendant que vous recevez vos loyers garantis chaque mois. Sécurité maximale, zéro contrainte.
                         </p>
 
                         <div className="grid gap-4">

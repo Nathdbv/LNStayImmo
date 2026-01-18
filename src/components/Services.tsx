@@ -6,7 +6,7 @@ const services = [
         icon: <BadgeEuro className="w-12 h-12 text-amber-500" />,
         title: "Revenus Garantis",
         description: "Nous vous versons le loyer chaque mois, que le bien soit occupé ou non. Zéro retard, zéro impayé.",
-        guarantee: "Paiement sous 48h garanti par contrat"
+        guarantee: "Paiement à date fixe garanti par contrat"
     },
     {
         icon: <Shield className="w-12 h-12 text-amber-500" />,

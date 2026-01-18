@@ -1,7 +1,8 @@
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import TrustSection from './components/TrustSection';
+import AirCoverSection from './components/AirCoverSection';
+// import TrustSection from './components/TrustSection';
 import Services from './components/Services';
 import Commitments from './components/Commitments';
 import Process from './components/Process';
@@ -14,11 +15,12 @@ function App() {
     <div className="min-h-screen bg-slate-50 font-main">
       <Navbar />
       <Hero />
-      <TrustSection />
+      <Benefits />
+      <AirCoverSection />
+      {/* <TrustSection /> */}
       <Services />
       <Commitments />
       <Process />
-      <Benefits />
       <Contact />
       <Footer />
     </div>

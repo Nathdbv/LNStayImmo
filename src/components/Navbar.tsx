@@ -26,9 +26,10 @@ export default function Navbar() {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center gap-8">
+                    <a href="#benefits" className={`hover:text-amber-500 transition-colors font-medium ${isScrolled ? 'text-slate-700' : 'text-white/90'}`}>Avantages</a>
+                    <a href="#insurance" className={`hover:text-amber-500 transition-colors font-medium ${isScrolled ? 'text-slate-700' : 'text-white/90'}`}>Assurance</a>
                     <a href="#services" className={`hover:text-amber-500 transition-colors font-medium ${isScrolled ? 'text-slate-700' : 'text-white/90'}`}>Services</a>
                     <a href="#process" className={`hover:text-amber-500 transition-colors font-medium ${isScrolled ? 'text-slate-700' : 'text-white/90'}`}>Fonctionnement</a>
-                    <a href="#benefits" className={`hover:text-amber-500 transition-colors font-medium ${isScrolled ? 'text-slate-700' : 'text-white/90'}`}>Avantages</a>
                     {/* <button className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2.5 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
                         Estimation Gratuite
                     </button> */}
@@ -50,9 +51,10 @@ export default function Navbar() {
             {/* Mobile Menu Overlay */}
             {isMobileMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-8 px-6 flex flex-col gap-6">
+                    <a href="#benefits" onClick={() => setIsMobileMenuOpen(false)} className="text-slate-800 text-lg font-medium">Avantages</a>
+                    <a href="#insurance" onClick={() => setIsMobileMenuOpen(false)} className="text-slate-800 text-lg font-medium">Assurance</a>
                     <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-slate-800 text-lg font-medium">Services</a>
                     <a href="#process" onClick={() => setIsMobileMenuOpen(false)} className="text-slate-800 text-lg font-medium">Fonctionnement</a>
-                    <a href="#benefits" onClick={() => setIsMobileMenuOpen(false)} className="text-slate-800 text-lg font-medium">Avantages</a>
                     {/* <button className="bg-amber-500 text-white py-3 rounded-lg font-bold w-full">
                         Estimation Gratuite
                     </button> */}

@@ -4,8 +4,8 @@ import { Shield, Clock, FileCheck, Wrench, ClipboardCheck, Phone } from 'lucide-
 const commitments = [
     {
         icon: <Clock className="w-8 h-8" />,
-        title: "Paiement Garanti 48h",
-        description: "Loyer versé sous 48h après signature, sans délai ni condition"
+        title: "Paiement Ponctuel",
+        description: "Versement des loyers à date fixe, garanti contractuellement"
     },
     {
         icon: <Shield className="w-8 h-8" />,
