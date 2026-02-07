@@ -32,8 +32,8 @@ export default function AirCoverSection() {
                                     <Shield className="w-6 h-6 text-rose-600" />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Garantie dommages (jusqu'à 3 M$)</h3>
-                                    <p className="text-slate-600">Couverture pour votre logement et vos biens via le programme AirCover (selon éligibilité et plafonds en USD).</p>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Assurance à 3 Millions €</h3>
+                                    <p className="text-slate-600">Une couverture exceptionnelle pour votre logement et vos biens, incluse sans frais supplémentaires.</p>
                                 </div>
                             </div>
 
@@ -42,8 +42,8 @@ export default function AirCoverSection() {
                                     <HeartHandshake className="w-6 h-6 text-rose-600" />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Responsabilité civile (1 M$)</h3>
-                                    <p className="text-slate-600">Protection contre les recours de tiers pour dommages corporels ou matériels (selon conditions du programme).</p>
+                                    <h3 className="text-lg font-bold text-slate-900 mb-1">Responsabilité civile</h3>
+                                    <p className="text-slate-600">Protection complète contre les recours de tiers pour dommages corporels ou matériels.</p>
                                 </div>
                             </div>
 
@@ -83,14 +83,7 @@ export default function AirCoverSection() {
                                     <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/10 hover:border-rose-500/50 transition-colors">
                                         <div className="flex items-center gap-4">
                                             <Shield className="w-5 h-5 text-rose-400" />
-                                            <span className="font-medium">Dommages animaux</span>
-                                        </div>
-                                        <CheckCircle className="w-5 h-5 text-rose-500 fill-rose-500/20" />
-                                    </div>
-                                    <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/10 hover:border-rose-500/50 transition-colors">
-                                        <div className="flex items-center gap-4">
-                                            <Shield className="w-5 h-5 text-rose-400" />
-                                            <span className="font-medium">Perte de revenus</span>
+                                            <span className="font-medium">Protection Responsabilité</span>
                                         </div>
                                         <CheckCircle className="w-5 h-5 text-rose-500 fill-rose-500/20" />
                                     </div>

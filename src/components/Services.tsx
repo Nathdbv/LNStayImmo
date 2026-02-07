@@ -10,15 +10,15 @@ const services = [
     },
     {
         icon: <Shield className="w-12 h-12 text-amber-500" />,
-        title: "Assurance Complète",
-        description: "Nous souscrivons une assurance spécifique qui couvre les risques locatifs et les éventuels dommages.",
-        guarantee: "Couverture jusqu'à 1M€"
+        title: "Assurance Multirisque",
+        description: "Une couverture complète incluse pour votre tranquillité d'esprit.",
+        guarantee: "Protection jusqu'à 3 Millions €"
     },
     {
         icon: <Wrench className="w-12 h-12 text-amber-500" />,
-        title: "Entretien Professionnel",
-        description: "Une équipe de ménage professionnelle intervient après chaque séjour. Votre bien reste impeccable.",
-        guarantee: "Standard hôtelier certifié"
+        title: "Valorisation & Entretien",
+        description: "Nous décorons, embellissons et entretenons votre bien. Le ménage professionnel après chaque séjour garantit un état impeccable.",
+        guarantee: "Standard hôtelier + Design"
     }
 ];
 
