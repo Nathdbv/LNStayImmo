@@ -64,8 +64,10 @@ export default function LegalMentions() {
                             Hébergement
                         </h2>
                         <div className="text-slate-600">
-                            <p className="mb-2"><span className="font-semibold text-slate-900">Hébergeur :</span> [Nom de l'hébergeur à renseigner]</p>
-                            <p><span className="font-semibold text-slate-900">Adresse :</span> [Adresse de l'hébergeur à renseigner]</p>
+                            <p className="mb-2"><span className="font-semibold text-slate-900">Hébergeur :</span> Cloudflare, Inc.</p>
+                            <p className="mb-2"><span className="font-semibold text-slate-900">Adresse :</span> 101 Townsend St, San Francisco, CA 94107, USA.</p>
+                            <p className="mb-2"><span className="font-semibold text-slate-900">Téléphone :</span> +1 (650) 319 8930</p>
+                            <p><span className="font-semibold text-slate-900">Site Web :</span> <a href="https://www.cloudflare.com" className="text-amber-500 hover:underline" target="_blank" rel="noopener noreferrer">www.cloudflare.com</a></p>
                         </div>
                     </section>
 
