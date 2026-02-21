@@ -26,7 +26,7 @@ export default function LegalMentions() {
                             </div>
                             <div>
                                 <p className="font-semibold text-slate-900 mb-1">Éditeur</p>
-                                <p>Loan Nollet</p>
+                                <p>Loan Nollet EI</p>
                             </div>
                             <div>
                                 <p className="font-semibold text-slate-900 mb-1">Statut juridique</p>
@@ -54,7 +54,7 @@ export default function LegalMentions() {
                             <span className="w-2 h-8 bg-amber-500 rounded-full"></span>
                             Directeur de publication
                         </h2>
-                        <p className="text-slate-600">Loan Nollet</p>
+                        <p className="text-slate-600">Loan Nollet EI</p>
                     </section>
 
                     {/* Hébergement */}

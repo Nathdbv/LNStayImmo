@@ -43,7 +43,7 @@ export default function Footer() {
 
                 <div className="border-t border-slate-800/50 pt-8 text-center md:text-left">
                     <p className="text-xs text-slate-500 leading-relaxed">
-                        LNStay – Entreprise individuelle (EI) – Micro-entrepreneur – Éditeur : Loan Nollet – SIREN : 932022122 – SIRET : 93202212200026 – Tél. : 06 67 02 03 21 – Email : loan.nollet.pro@gmail.com – © 2026 LNStay.
+                        LNStay – Entreprise individuelle (EI) – Micro-entrepreneur – Éditeur : Loan Nollet EI – SIREN : 932022122 – SIRET : 93202212200026 – Tél. : 06 67 02 03 21 – Email : loan.nollet.pro@gmail.com – © 2026 LNStay.
                     </p>
                 </div>
             </div>
