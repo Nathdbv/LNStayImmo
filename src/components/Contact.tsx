@@ -22,7 +22,7 @@ export default function Contact() {
                                     <Phone className="w-8 h-8 text-amber-500 group-hover:text-white transition-colors" />
                                 </div>
                                 <h3 className="text-xl font-bold mb-2">Téléphone</h3>
-                                <p className="text-slate-400 mb-4">Du lundi au samedi</p>
+                                <p className="text-slate-400 mb-4">7/7 Jours - Du lundi au dimanche</p>
                                 <a href="tel:0667020321" className="text-lg font-semibold hover:text-amber-500 transition-colors">
                                     06 67 02 03 21
                                 </a>
