@@ -1,52 +1,38 @@
 import { Mail, Phone } from 'lucide-react';
-import logoImg from '../assets/logo.png';
 
 export default function Contact() {
     return (
-        <section id="contact" className="py-20 bg-creme">
+        <section id="contact" className="py-12 bg-creme">
             <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Discutons de votre <span className="text-amber-500">projet</span></h2>
-                    <p className="text-slate-600 max-w-2xl mx-auto">
-                        Vous avez un bien à louer ? Une question sur notre fonctionnement ?
-                        Contactez-nous directement pour une estimation gratuite.
-                    </p>
-                </div>
+                <div className="max-w-5xl mx-auto bg-slate-900 text-white rounded-2xl shadow-xl overflow-hidden">
+                    <div className="p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-8">
 
-                <div className="max-w-4xl mx-auto bg-slate-900 text-white rounded-2xl shadow-xl overflow-hidden">
-                    <div className="p-10 md:p-16 text-center">
-
-                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-2xl mx-auto">
-                            <div className="flex flex-col items-center group">
-                                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
-                                    <Phone className="w-8 h-8 text-amber-500 group-hover:text-white transition-colors" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-2">Téléphone</h3>
-                                <p className="text-slate-400 mb-4">7/7 Jours - Du lundi au dimanche</p>
-                                <a href="tel:0667020321" className="text-lg font-semibold hover:text-amber-500 transition-colors">
-                                    06 67 02 03 21
-                                </a>
-                            </div>
-
-                            <div className="flex flex-col items-center group">
-                                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
-                                    <Mail className="w-8 h-8 text-amber-500 group-hover:text-white transition-colors" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-2">Email</h3>
-                                <p className="text-slate-400 mb-4">Réponse sous 24h</p>
-                                <a href="mailto:loan.nollet.pro@gmail.com" className="text-lg font-semibold hover:text-amber-500 transition-colors">
-                                    loan.nollet.pro@gmail.com
-                                </a>
-                            </div>
-
-
+                        {/* Text Intro */}
+                        <div className="md:w-1/3 text-center md:text-left">
+                            <h2 className="text-2xl md:text-3xl font-bold">Un projet ? <br className="hidden lg:block" /> <span className="text-amber-500">Discutons-en.</span></h2>
                         </div>
 
-                        <div className="mt-16 pt-10 border-t border-slate-800">
-                            <div className="mx-auto mb-6 flex justify-center">
-                                <img src={logoImg} className="h-20 w-auto object-contain bg-white/5 rounded-lg p-2" alt="LNStay Logo" />
-                            </div>
-                            <p className="text-slate-400 text-sm">© 2026 LNStay.</p>
+                        {/* Contacts */}
+                        <div className="md:w-2/3 flex flex-col sm:flex-row gap-6 justify-end w-full">
+                            <a href="tel:0667020321" className="flex items-center gap-4 bg-white/5 hover:bg-white/10 p-4 rounded-xl border border-white/10 transition-colors flex-1">
+                                <div className="w-10 h-10 bg-amber-500/10 rounded-full flex items-center justify-center">
+                                    <Phone className="w-5 h-5 text-amber-500" />
+                                </div>
+                                <div>
+                                    <p className="text-xs text-slate-400 mb-0.5">7/7 Jours</p>
+                                    <p className="font-semibold">06 67 02 03 21</p>
+                                </div>
+                            </a>
+
+                            <a href="mailto:loan.nollet.pro@gmail.com" className="flex items-center gap-4 bg-white/5 hover:bg-white/10 p-4 rounded-xl border border-white/10 transition-colors flex-1">
+                                <div className="w-10 h-10 bg-amber-500/10 rounded-full flex items-center justify-center">
+                                    <Mail className="w-5 h-5 text-amber-500" />
+                                </div>
+                                <div>
+                                    <p className="text-xs text-slate-400 mb-0.5">Réponse rapide</p>
+                                    <p className="font-semibold text-sm">loan.nollet.pro@gmail.com</p>
+                                </div>
+                            </a>
                         </div>
 
                     </div>
