@@ -1,5 +1,5 @@
 
-import { Instagram, Linkedin, Facebook } from 'lucide-react';
+
 import logoImg from '../assets/logo.png';
 
 export default function Footer() {
@@ -34,11 +34,7 @@ export default function Footer() {
                         <p className="text-sm">© 2026 LNStay. Tous droits réservés.</p>
                         <a href="#legal" className="text-sm text-slate-500 hover:text-amber-500 transition-colors">Mentions Légales</a>
                     </div>
-                    <div className="flex gap-4">
-                        <a href="#" className="hover:text-amber-500 transition-colors"><Instagram className="w-5 h-5" /></a>
-                        <a href="#" className="hover:text-amber-500 transition-colors"><Linkedin className="w-5 h-5" /></a>
-                        <a href="#" className="hover:text-amber-500 transition-colors"><Facebook className="w-5 h-5" /></a>
-                    </div>
+
                 </div>
 
                 <div className="border-t border-slate-800/50 pt-8 text-center md:text-left">
