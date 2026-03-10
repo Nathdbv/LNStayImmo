@@ -8,8 +8,8 @@ const steps = [
     },
     {
         number: "02",
-        title: "Visite & Estimation",
-        desc: "Nous visitons le logement et validons son potentiel locatif pour définir le loyer."
+        title: "Visite & Validation",
+        desc: "Nous visitons le logement pour valider son potentiel. Notre objectif : vous verser le loyer que vous attendez."
     },
     {
         number: "03",

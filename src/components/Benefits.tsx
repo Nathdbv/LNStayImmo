@@ -4,7 +4,8 @@ import { Check } from 'lucide-react';
 
 const benefits = [
     "Loyer garanti et versé le 1er du mois - Sans retard, sans exception",
-    "Assurance multirisque incluse jusqu'à 3 Millions € - Protection totale de votre patrimoine", ,
+    "Assurance multirisque incluse jusqu'à 3 Millions € - Protection totale de votre patrimoine",
+    "Mise en valeur de votre bien - Achat de mobilier, décoration et électroménager à nos frais",
     "Aucun frais de gestion : notre rémunération provient de l'exploitation",
     "Entretien hôtelier professionnel - Votre bien toujours impeccable",
     "Zéro vacance locative - Revenus continus garantis",

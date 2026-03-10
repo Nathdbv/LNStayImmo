@@ -1,5 +1,5 @@
 
-import { CheckCircle, Star } from 'lucide-react';
+import { CheckCircle, Star, Phone, Mail } from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -49,17 +49,47 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 mb-16">
-                        {/* <button className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-lg px-8 py-4 rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] hover:-translate-y-1 flex items-center justify-center gap-3">
-                            Estimer mes revenus
-                            <ArrowRight className="w-5 h-5" />
-                        </button> */}
-                        <a href="#services" className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all hover:border-white/40 flex items-center justify-center">
-                            Découvrir le concept
+                        <a href="#process" className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-lg px-8 py-4 rounded-xl font-bold transition-all shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] hover:-translate-y-1 flex items-center justify-center">
+                            Comment ça marche ?
+                        </a>
+                        <a href="#benefits" className="bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all hover:border-white/40 flex items-center justify-center">
+                            Découvrir nos garanties
                         </a>
                     </div>
 
-
                 </div>
+            </div>
+
+            {/* Desktop Floating Contact Bubble */}
+            <div className="hidden lg:flex absolute top-1/2 right-10 -translate-y-1/2 flex-col gap-4 z-20">
+                <a href="tel:0667020321" className="bg-white/10 backdrop-blur-xl border border-white/20 p-4 rounded-2xl shadow-2xl hover:bg-amber-500/20 hover:border-amber-500/50 transition-all group flex items-center gap-4 w-64">
+                    <div className="bg-amber-500 p-3 rounded-xl text-white shadow-lg group-hover:scale-110 transition-transform">
+                        <Phone className="w-6 h-6" />
+                    </div>
+                    <div>
+                        <p className="text-xs text-slate-300 uppercase tracking-widest font-semibold mb-1">Appelez-nous</p>
+                        <p className="text-white font-bold">06 67 02 03 21</p>
+                    </div>
+                </a>
+                <a href="mailto:loan.nollet.pro@gmail.com" className="bg-white/10 backdrop-blur-xl border border-white/20 p-4 rounded-2xl shadow-2xl hover:bg-amber-500/20 hover:border-amber-500/50 transition-all group flex items-center gap-4 w-64">
+                    <div className="bg-amber-500 p-3 rounded-xl text-white shadow-lg group-hover:scale-110 transition-transform">
+                        <Mail className="w-6 h-6" />
+                    </div>
+                    <div>
+                        <p className="text-xs text-slate-300 uppercase tracking-widest font-semibold mb-1">Écrivez-nous</p>
+                        <p className="text-white font-bold text-sm">loan.nollet.pro<br />@gmail.com</p>
+                    </div>
+                </a>
+            </div>
+
+            {/* Mobile bottom-right fixed contact */}
+            <div className="lg:hidden fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+                <a href="tel:0667020321" className="bg-amber-500 p-4 rounded-full text-white shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:scale-110 transition-transform flex items-center justify-center">
+                    <Phone className="w-6 h-6" />
+                </a>
+                <a href="mailto:loan.nollet.pro@gmail.com" className="bg-slate-800 p-4 rounded-full text-white shadow-[0_0_20px_rgba(30,41,59,0.4)] hover:scale-110 border border-slate-700 transition-transform flex items-center justify-center">
+                    <Mail className="w-6 h-6" />
+                </a>
             </div>
         </section>
     );
